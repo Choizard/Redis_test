@@ -19,20 +19,20 @@ Redis는 인메모리 데이터 구조 스토어이면서, 메모리 내에서 �
 
 2. 재시작 후 설치 (경로 : /usr/bin/redis-server)
 
-$ sudo apt-add-repository ppa:redislabs/redis
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get install redis-server
+* $ sudo apt-add-repository ppa:redislabs/redis
+* $ sudo apt-get update
+* $ sudo apt-get upgrade
+* $ sudo apt-get install redis-server
 
 3. 서버 실행
 
-$ sudo service redis-server start
+* $ sudo service redis-server start
 
 4. 실행 확인 및 명령어 입력 ( WSL 하나 더 실행 )
 
-$ redis-cli
-127.0.0.1:6379> ping
-PONG
+* $ redis-cli
+* 127.0.0.1:6379> ping
+* PONG
 
 
 
